@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 const menuOpen = ref(false)
 const faqs = [
-  { q: 'CulDerja, c’est quoi ?', a: 'Une application pour découvrir et pratiquer la derja tunisienne à travers des leçons, des dialogues, du vocabulaire et des activités inspirées de la vie quotidienne.' },
+  { q: 'CultDerja, c’est quoi ?', a: 'Une application pour découvrir et pratiquer la derja tunisienne à travers des leçons, des dialogues, du vocabulaire et des activités inspirées de la vie quotidienne.' },
   { q: 'Faut-il déjà parler arabe ?', a: 'Non. Le parcours est pensé pour commencer progressivement, avec des situations concrètes, des mots utiles et l’écriture arabe en complément.' },
   { q: 'Est-ce que je peux apprendre à mon rythme ?', a: 'Oui : avance à ton rythme, retrouve tes révisions et suis ta progression au fil des leçons.' }
 ]
@@ -12,7 +12,7 @@ const openFaq = ref(0)
 <template>
   <div class="site-shell">
     <header class="topbar">
-      <a class="brand" href="#accueil" aria-label="CulDerja, accueil">
+      <a class="brand" href="#accueil" aria-label="CultDerja, accueil">
         <span class="brand-mark"><span>ع</span></span>
         <span class="brand-name">Cul<span>Derja</span></span>
       </a>
@@ -37,11 +37,11 @@ const openFaq = ref(0)
           </div>
           <div class="hero-note"><span class="note-stars">✳ ✳ ✳</span><span>Apprendre une langue, c’est aussi rencontrer une culture.</span></div>
         </div>
-        <div class="hero-visual" aria-label="Aperçu de l’application CulDerja">
+        <div class="hero-visual" aria-label="Aperçu de l’application CultDerja">
           <div class="sun-disc"></div><div class="ornament ornament-one">✳</div><div class="ornament ornament-two">✳</div>
           <div class="floating-tag tag-top"><span class="tag-icon">ع</span><span><b>La derja</b><small>à ton rythme</small></span></div>
-          <div class="phone phone-back"><img src="/images/lesson.png" alt="Écran de leçon de l’application CulDerja"></div>
-          <div class="phone phone-front"><img src="/images/onboarding.png" alt="Écran d’apprentissage illustré de l’application CulDerja"></div>
+          <div class="phone phone-back"><img src="/images/lesson.png" alt="Écran de leçon de l’application CultDerja"></div>
+          <div class="phone phone-front"><img src="/images/onboarding.png" alt="Écran d’apprentissage illustré de l’application CultDerja"></div>
           <div class="floating-tag tag-bottom"><span class="mini-spark">✦</span><span><b>Parler, écouter, découvrir</b><small>Des situations de la vraie vie</small></span></div>
           <div class="visual-caption">تونس <span>—</span> Tunisie, au fil des mots</div>
         </div>
@@ -81,6 +81,6 @@ const openFaq = ref(0)
 
       <section id="decouvrir" class="final-cta"><div class="cta-spark">✳</div><span class="kicker">Yalla, on commence ?</span><h2>La prochaine conversation<br>peut être en derja.</h2><p>Fais le premier pas et découvre une autre façon d’apprendre le tunisien.</p><a class="button button-primary" href="#accueil">Revenir au début <span>↑</span></a><span class="cta-arabic" lang="ar" dir="rtl">مرحبا بيك</span></section>
     </main>
-    <footer class="footer"><a class="brand" href="#accueil"><span class="brand-mark"><span>ع</span></span><span class="brand-name">Cul<span>Derja</span></span></a><p>La derja tunisienne, au fil des mots.</p><a href="#accueil">Retour en haut ↑</a><small>© 2026 CulDerja</small></footer>
+    <footer class="footer"><a class="brand" href="#accueil"><span class="brand-mark"><span>ع</span></span><span class="brand-name">Cul<span>Derja</span></span></a><p>La derja tunisienne, au fil des mots.</p><a href="#accueil">Retour en haut ↑</a><small>© 2026 CultDerja</small></footer>
   </div>
 </template>
