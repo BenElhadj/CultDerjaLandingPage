@@ -30,7 +30,7 @@ const openFaq = ref(0)
       <section id="accueil" class="hero">
         <div class="hero-copy">
           <div class="eyebrow"><span class="eyebrow-dot"></span> La langue du quotidien, la culture en plus</div>
-          <h1>La derja tunisienne,<br><span>ça se vit. 💘 </span></h1>
+          <h1>La derja tunisienne,<br><span>ça se vit.</span></h1>
           <p class="hero-lead">Les mots, les expressions et les petites conversations qui rapprochent. Apprends à parler tunisien, une situation à la fois.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="https://cultderja-apprendre-le-tunisien.ai.studio" target="_blank" rel="noopener noreferrer">Explorer l’expérience <span>→</span></a>
