@@ -41,8 +41,8 @@ const openFaq = ref(0)
         <div class="hero-visual" aria-label="Aperçu de l’application CultDerja">
           <div class="sun-disc"></div><div class="ornament ornament-one">✳</div><div class="ornament ornament-two">✳</div>
           <div class="floating-tag tag-top"><span class="tag-icon">ع</span><span><b>La derja</b><small>à ton rythme</small></span></div>
-          <div class="phone phone-back"><img :src="`${assetBase}images/lesson.png`" alt="Écran de leçon de l’application CultDerja"></div>
-          <div class="phone phone-front"><img :src="`${assetBase}images/onboarding.png`" alt="Écran d’apprentissage illustré de l’application CultDerja"></div>
+          <div class="phone phone-back"><img :src="`${assetBase}images/lesson.webp`" alt="Écran de leçon de l’application CultDerja"></div>
+          <div class="phone phone-front"><img :src="`${assetBase}images/onboarding.webp`" alt="Écran d’apprentissage illustré de l’application CultDerja"></div>
           <div class="floating-tag tag-bottom"><span class="mini-spark">✦</span><span><b>Parler, écouter, découvrir</b><small>Des situations de la vraie vie</small></span></div>
           <div class="visual-caption">تونس <span>—</span> Tunisie, au fil des mots</div>
         </div>
@@ -60,16 +60,16 @@ const openFaq = ref(0)
           <p>Des leçons guidées, des scènes du quotidien et des activités variées pour faire entrer la derja dans ta vie.</p>
         </div>
         <div class="showcase-grid">
-          <article class="showcase-card card-blue"><div class="card-copy"><span class="number">01</span><h3>Entre dans la langue</h3><p>Des premières étapes accessibles pour prendre confiance dès le début.</p></div><div class="screen-frame screen-tall"><img :src="`${assetBase}images/onboarding.png`" alt="Première leçon illustrée"></div></article>
-          <article class="showcase-card card-sand"><div class="card-copy"><span class="number">02</span><h3>Apprends en contexte</h3><p>Des dialogues illustrés pour associer les mots aux moments de la vie réelle.</p></div><div class="screen-frame"><img :src="`${assetBase}images/lesson-detail.png`" alt="Leçon de conversation au café"></div></article>
-          <article class="showcase-card card-pale"><div class="card-copy"><span class="number">03</span><h3>Enrichis ton vocabulaire</h3><p>Révise les mots et retrouve les expressions essentielles au quotidien.</p></div><div class="screen-frame"><img :src="`${assetBase}images/dictionary.png`" alt="Écran du dictionnaire de l’application"></div></article>
+          <article class="showcase-card card-blue"><div class="card-copy"><span class="number">01</span><h3>Entre dans la langue</h3><p>Des premières étapes accessibles pour prendre confiance dès le début.</p></div><div class="screen-frame screen-tall"><img :src="`${assetBase}images/onboarding.webp`" alt="Première leçon illustrée"></div></article>
+          <article class="showcase-card card-sand"><div class="card-copy"><span class="number">02</span><h3>Apprends en contexte</h3><p>Des dialogues illustrés pour associer les mots aux moments de la vie réelle.</p></div><div class="screen-frame"><img :src="`${assetBase}images/lesson-detail.webp`" alt="Leçon de conversation au café"></div></article>
+          <article class="showcase-card card-pale"><div class="card-copy"><span class="number">03</span><h3>Enrichis ton vocabulaire</h3><p>Révise les mots et retrouve les expressions essentielles au quotidien.</p></div><div class="screen-frame"><img :src="`${assetBase}images/dictionary.webp`" alt="Écran du dictionnaire de l’application"></div></article>
         </div>
       </section>
 
       <section id="parcours" class="journey">
         <div class="journey-inner">
           <div class="journey-copy"><span class="kicker kicker-light">Un apprentissage vivant</span><h2>Pas seulement des mots.<br><em>Des moments à partager.</em></h2><p>Commander un café, saluer la famille, comprendre une expression ou découvrir une tradition : chaque étape t’aide à te sentir plus à l’aise en derja.</p><a class="button button-light" href="#decouvrir">Découvrir le parcours <span>→</span></a></div>
-          <div class="journey-collage"><div class="collage-image collage-large"><img :src="`${assetBase}images/culture.png`" alt="Activités culturelles de l’application"></div><div class="collage-image collage-small"><img :src="`${assetBase}images/profile.png`" alt="Suivi de progression dans l’application"></div><div class="quote-card"><span>كلمة بكلمة</span><p>Mot après mot,<br>la conversation commence.</p><b>✳</b></div></div>
+          <div class="journey-collage"><div class="collage-image collage-large"><img :src="`${assetBase}images/culture.webp`" alt="Activités culturelles de l’application"></div><div class="collage-image collage-small"><img :src="`${assetBase}images/profile.webp`" alt="Suivi de progression dans l’application"></div><div class="quote-card"><span>كلمة بكلمة</span><p>Mot après mot,<br>la conversation commence.</p><b>✳</b></div></div>
         </div>
       </section>
 
