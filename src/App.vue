@@ -22,7 +22,7 @@ const openFaq = ref(0)
         <a href="#experience" @click="menuOpen = false">L’expérience</a>
         <a href="#parcours" @click="menuOpen = false">Le parcours</a>
         <a href="#faq" @click="menuOpen = false">FAQ</a>
-        <a class="nav-cta" href="#decouvrir" @click="menuOpen = false">Découvrir l’application <span>↗</span></a>
+        <a class="nav-cta" href="https://cultderja-apprendre-le-tunisien.ai.studio" target="_blank" rel="noopener noreferrer" @click="menuOpen = false">Découvrir l’application <span>↗</span></a>
       </nav>
     </header>
 
