@@ -40,7 +40,7 @@ const openFaq = ref(0)
         </div>
         <div class="hero-visual" aria-label="Aperçu de l’application CultDerja">
           <div class="sun-disc"></div><div class="ornament ornament-one">✳</div><div class="ornament ornament-two">✳</div>
-          <div class="floating-tag tag-top"><span class="tag-icon">ع</span><span><b>La derja</b><small>à ton rythme</small></span></div>
+          <div class="floating-tag tag-top"><span class="tag-icon"><img :src="`${assetBase}images/logo.webp`" alt="" aria-hidden="true"></span><span><b>La derja</b><small>à ton rythme</small></span></div>
           <div class="phone phone-back"><img :src="`${assetBase}images/lesson.webp`" alt="Écran de leçon de l’application CultDerja"></div>
           <div class="phone phone-front"><img :src="`${assetBase}images/onboarding.webp`" alt="Écran d’apprentissage illustré de l’application CultDerja"></div>
           <div class="floating-tag tag-bottom"><span class="mini-spark">✦</span><span><b>Parler, écouter, découvrir</b><small>Des situations de la vraie vie</small></span></div>
