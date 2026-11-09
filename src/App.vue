@@ -14,8 +14,8 @@ const openFaq = ref(0)
   <div class="site-shell">
     <header class="topbar">
       <a class="brand" href="#accueil" aria-label="CultDerja, accueil">
-        <span class="brand-mark"><span>ع</span></span>
-        <span class="brand-name">Cul<span>Derja</span></span>
+        <img class="brand-logo" :src="`${assetBase}images/logo.webp`" alt="" aria-hidden="true">
+        <img class="brand-wordmark" :src="`${assetBase}images/cultderja.webp`" alt="CultDerja">
       </a>
       <button class="menu-toggle" @click="menuOpen = !menuOpen" :aria-expanded="menuOpen" aria-label="Ouvrir le menu">☰</button>
       <nav :class="['nav-links', { opened: menuOpen }]" aria-label="Navigation principale">
@@ -82,6 +82,6 @@ const openFaq = ref(0)
 
       <section id="decouvrir" class="final-cta"><div class="cta-spark">✳</div><span class="kicker">Yalla, on commence ?</span><h2>La prochaine conversation<br>peut être en derja.</h2><p>Fais le premier pas et découvre une autre façon d’apprendre le tunisien.</p><a class="button button-primary" href="#accueil">Revenir au début <span>↑</span></a><span class="cta-arabic" lang="ar" dir="rtl">مرحبا بيك</span></section>
     </main>
-    <footer class="footer"><a class="brand" href="#accueil"><span class="brand-mark"><span>ع</span></span><span class="brand-name">Cul<span>Derja</span></span></a><p>La derja tunisienne, au fil des mots.</p><a href="#accueil">Retour en haut ↑</a><small>© 2026 CultDerja</small></footer>
+    <footer class="footer"><a class="brand" href="#accueil" aria-label="CultDerja, accueil"><img class="brand-logo" :src="`${assetBase}images/logo.webp`" alt="" aria-hidden="true"><img class="brand-wordmark" :src="`${assetBase}images/cultderja.webp`" alt="CultDerja"></a><p>La derja tunisienne, au fil des mots.</p><a href="#accueil">Retour en haut ↑</a><small>© 2026 CultDerja</small></footer>
   </div>
 </template>
