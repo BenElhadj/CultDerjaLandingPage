@@ -29,14 +29,14 @@ const openFaq = ref(0)
     <main>
       <section id="accueil" class="hero">
         <div class="hero-copy">
-          <div class="eyebrow"><span class="eyebrow-dot"></span> La langue du quotidien, la culture en plus</div>
+          <!-- <div class="eyebrow"><span class="eyebrow-dot"></span> La langue du quotidien, la culture en plus</div> -->
           <h1>La derja tunisienne,<br><span>ça se vit.</span></h1>
           <p class="hero-lead">Les mots, les expressions et les petites conversations qui rapprochent. Apprends à parler tunisien, une situation à la fois.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="https://cultderja-apprendre-le-tunisien.ai.studio" target="_blank" rel="noopener noreferrer">Explorer l’expérience <span>→</span></a>
             <a class="text-link" href="#parcours">Voir comment ça marche <span>↓</span></a>
           </div>
-          <div class="hero-note"><span class="note-stars">✳ ✳ ✳</span><span>Apprendre une langue, c’est aussi rencontrer une culture.</span></div>
+          <!-- <div class="hero-note"><span class="note-stars">✳ ✳ ✳</span><span>Apprendre une langue, c’est aussi rencontrer une culture.</span></div> -->
         </div>
         <div class="hero-visual" aria-label="Aperçu de l’application CultDerja">
           <div class="sun-disc"></div><div class="ornament ornament-one">✳</div><div class="ornament ornament-two">✳</div>
@@ -44,9 +44,9 @@ const openFaq = ref(0)
           <div class="phone phone-back"><img :src="`${assetBase}images/lesson.webp`" alt="Écran de leçon de l’application CultDerja"></div>
           <div class="phone phone-front"><img :src="`${assetBase}images/onboarding.webp`" alt="Écran d’apprentissage illustré de l’application CultDerja"></div>
           <div class="floating-tag tag-bottom"><span class="mini-spark">✦</span><span><b>Parler, écouter, découvrir</b><small>Des situations de la vraie vie</small></span></div>
-          <div class="visual-caption">تونس <span>—</span> Tunisie, au fil des mots</div>
+          <!-- <div class="visual-caption">تونس <span>—</span> Tunisie, au fil des mots</div> -->
         </div>
-        <div class="hero-bottom"><span>01 / Apprendre</span><span class="bottom-line"></span><span>02 / Pratiquer</span><span class="bottom-line"></span><span>03 / Découvrir</span></div>
+        <!-- <div class="hero-bottom"><span>01 / Apprendre</span><span class="bottom-line"></span><span>02 / Pratiquer</span><span class="bottom-line"></span><span>03 / Découvrir</span></div> -->
       </section>
 
       <section class="intro-strip">
