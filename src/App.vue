@@ -30,21 +30,16 @@ const openFaq = ref(0)
     <main>
       <section id="accueil" class="hero">
         <div class="hero-copy">
-          <!-- <div class="eyebrow"><span class="eyebrow-dot"></span> La langue du quotidien, la culture en plus</div> -->
           <h1>Apprends à parler<br>tunisien <span>comme<br>elle se vit.</span></h1>
-          <p class="hero-lead" style="color: black --force;">Apprends à parler tunisien à travers des dialogues inspirés de la vraie vie. Découvre les expressions, les habitudes et les codes culturels pour mieux comprendre tes proches et prendre part aux conversations.</p>
+          <p class="hero-lead">Apprends à parler tunisien à travers des dialogues inspirés de la vraie vie. Découvre les expressions, les habitudes et les codes culturels pour mieux comprendre tes proches et prendre part aux conversations.</p>
           <div class="hero-actions"><a class="button button-primary" href="#decouvrir">Découvrir l’application</a></div>
-          <!-- <div class="hero-note"><span class="note-stars">✳ ✳ ✳</span><span>Apprendre une langue, c’est aussi rencontrer une culture.</span></div> -->
         </div>
         <div class="hero-visual" aria-label="Aperçu de l’application CultDerja">
           <div class="sun-disc"></div><div class="ornament ornament-one">✳</div><div class="ornament ornament-two">✳</div>
           <div class="floating-tag tag-top"><span class="tag-icon"><img :src="`${assetBase}images/logo.webp`" alt="" aria-hidden="true"></span><span><b>Sortie prochaine</b><small>sur iOS & Android</small></span></div>
           <div class="phone phone-back"><img :src="`${assetBase}images/acceuil.webp`" alt="Écran d'accueil de CultDerja"></div>
           <div class="hero-lamma"><img :src="`${assetBase}images/lamma.webp`" alt="Scène de la vie quotidienne tunisienne dans CultDerja"></div>
-          <!-- <div class="floating-tag tag-bottom"><span class="mini-spark">✦</span><span><b>La derja comme elle se vit</b><small>Des situations de la vraie vie</small></span></div> -->
-          <!-- <div class="visual-caption">تونس <span>—</span> Tunisie, au fil des mots</div> -->
         </div>
-        <!-- <div class="hero-bottom"><span>01 / Apprendre</span><span class="bottom-line"></span><span>02 / Pratiquer</span><span class="bottom-line"></span><span>03 / Découvrir</span></div> -->
       </section>
 
       <section id="experience" class="experience section-wrap">
@@ -79,7 +74,7 @@ const openFaq = ref(0)
       <section id="ancrage" class="values section-wrap">
         <div class="section-title"><span></span><strong>L’ancrage culturel</strong><span></span></div>
         <div class="journey-inner">
-          <div class="journey-copy"><h2>Plus qu’une langue,<br><em>une culture</em></h2><p>Apprendre la derja, c’est aussi découvrir toute une culture. Explore l’histoire de la Tunisie, ses lieux emblématiques, les traditions et les cuisines. Parce qu’une langue prend tout son sens, quand on découvre le monde qui l’entoure.</p><a class="button button-light" href="#decouvrir">Découvrir l’application<span>→</span></a></div>
+          <div class="journey-copy"><h2>Plus qu’une langue,<br><em>une culture</em></h2><p>Apprendre la derja, c’est aussi découvrir toute une culture. Explore l’histoire de la Tunisie, ses lieux emblématiques, les traditions et les cuisines. Parce qu’une langue prend tout son sens, quand on découvre le monde qui l’entoure.</p></div>
           <div class="journey-collage"><div class="collage-image collage-large"><img :src="`${assetBase}images/recette_brik_tunisienne.webp`" alt="Moment de partage au sein d'une famille tunisienne"></div><div class="collage-image collage-small"><img :src="`${assetBase}images/amphitheatre_el_ jam.webp`" alt="Amphithéâtre d’El Jem en Tunisie"></div><div class="quote-card"><img :src="`${assetBase}images/chechia_tunisienne.webp`" alt="Chéchia tunisienne traditionnelle"></div></div>
         </div>
       </section>
