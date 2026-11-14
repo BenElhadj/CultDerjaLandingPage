@@ -30,15 +30,13 @@ const openFaq = ref(0)
     <main>
       <section id="accueil" class="hero">
         <div class="hero-copy">
-          <h1>Apprends à parler<br>tunisien <span>comme<br>elle se vit.</span></h1>
+          <h1>Apprends à parler tunisien<br><span>comme elle se vit.</span></h1>
           <p class="hero-lead">Apprends à parler tunisien à travers des dialogues inspirés de la vraie vie. Découvre les expressions, les habitudes et les codes culturels pour mieux comprendre tes proches et prendre part aux conversations.</p>
           <div class="hero-actions"><a class="button button-primary" href="#decouvrir">Découvrir l’application</a></div>
         </div>
         <div class="hero-visual" aria-label="Aperçu de l’application CultDerja">
-          <div class="sun-disc"></div><div class="ornament ornament-one">✳</div><div class="ornament ornament-two">✳</div>
           <div class="floating-tag tag-top"><span class="tag-icon"><img :src="`${assetBase}images/logo.webp`" alt="" aria-hidden="true"></span><span><b>Sortie prochaine</b><small>sur iOS & Android</small></span></div>
           <div class="phone phone-back"><img :src="`${assetBase}images/acceuil.webp`" alt="Écran d'accueil de CultDerja"></div>
-          <div class="hero-lamma"><img :src="`${assetBase}images/lamma.webp`" alt="Scène de la vie quotidienne tunisienne dans CultDerja"></div>
         </div>
       </section>
 
