@@ -30,7 +30,7 @@ const openFaq = ref(0)
     <main>
       <section id="accueil" class="hero">
         <div class="hero-copy">
-          <h1>Apprends à parler tunisien<br><span>comme elle se vit.</span></h1>
+          <h1>Apprends la derja tunisienne<br><span>comme elle se vit.</span></h1>
           <p class="hero-lead">Apprends à parler tunisien à travers des dialogues inspirés de la vraie vie. Découvre les expressions, les habitudes et les codes culturels pour mieux comprendre tes proches et prendre part aux conversations.</p>
           <div class="hero-actions"><a class="button button-primary" href="#decouvrir">Découvrir l’application</a></div>
         </div>
@@ -45,12 +45,12 @@ const openFaq = ref(0)
         <div class="experience-layout">
           <div class="section-heading">
             <div><h2>Pour profiter des<br>moments qui comptent</h2></div>
-            <p>Les histoires de famille, les petites blagues, les discussions autour d’un repas… Apprends l’arabe tunisien avec CultDerja pour partager pleinement les moments avec ceux que tu aimes.</p>
+            <p>Apprends l’arabe tunisien avec CultDerja pour partager pleinement les moments avec ceux que tu aimes.</p>
           </div>
           <div class="showcase-grid">
-            <article class="showcase-card card-blue"><div class="card-copy"><h3>Prendre part aux conversations dans les repas de famille</h3><p>Comprends les échanges et participe pleinement aux moments partagés autour de la table.</p></div><div class="screen-frame screen-tall"><img :src="`${assetBase}images/repas_familial_tunisien.webp`" alt="Écran d'accueil de CultDerja"></div></article>
-            <article class="showcase-card card-sand"><div class="card-copy"><h3>Comprendre les blagues et les sous-entendus</h3><p>Découvre l’humour et les expressions qui donnent tout leur sens aux conversations.</p></div><div class="screen-frame screen-tall"><img :src="`${assetBase}images/lesson_detail.webp`" alt="Dialogue illustré pour apprendre la derja en contexte"></div></article>
-            <article class="showcase-card card-pale"><div class="card-copy"><h3>Écouter et partager les histoires de famille</h3><p>Comprends les récits, les souvenirs et les histoires racontés par tes proches.</p></div><div class="screen-frame screen-tall"><img :src="`${assetBase}images/reunion_familiale_tunisienne.webp`" alt="Famille tunisienne réunie autour d'un moment de partage"></div></article>
+            <article class="showcase-card card-blue"><div class="card-copy"><h3>Prends part aux conversations dans les repas de famille</h3><p>Comprends les échanges et participe pleinement aux moments partagés autour de la table.</p></div><div class="screen-frame screen-tall"><img :src="`${assetBase}images/repas_familial_tunisien.webp`" alt="Écran d'accueil de CultDerja"></div></article>
+            <article class="showcase-card card-sand"><div class="card-copy"><h3>Comprends les blagues et les sous-entendus</h3><p>Découvre l’humour et les expressions qui donnent tout leur sens aux conversations.</p></div><div class="screen-frame screen-tall"><img :src="`${assetBase}images/lesson_detail.webp`" alt="Dialogue illustré pour apprendre la derja en contexte"></div></article>
+            <article class="showcase-card card-pale"><div class="card-copy"><h3>Écoute et partage les histoires de famille</h3><p>Comprends les récits, les souvenirs et les histoires racontés par tes proches.</p></div><div class="screen-frame screen-tall"><img :src="`${assetBase}images/reunion_familiale_tunisienne.webp`" alt="Famille tunisienne réunie autour d'un moment de partage"></div></article>
           </div>
         </div>
       </section>
