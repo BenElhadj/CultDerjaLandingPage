@@ -59,12 +59,27 @@ const openFaq = ref(0)
         <div class="section-title"><span></span><strong>Le concept</strong><span></span></div>
         <div class="journey-inner">
           <div class="journey-copy"><h2>Du premier mot<br>aux vraies conversations.</h2></div>
-          <div class="journey-screens" aria-label="Captures des fonctionnalités de CultDerja">
-            <div class="journey-screen"><img :src="`${assetBase}images/parcours.webp`" alt="Parcours d'apprentissage de CultDerja"></div>
-            <div class="journey-screen"><img :src="`${assetBase}images/flash_card.webp`" alt="Flashcards de vocabulaire dans CultDerja"></div>
-            <div class="journey-screen"><img :src="`${assetBase}images/ecoute_pratique.webp`" alt="Exercice d'écoute et de pratique dans CultDerja"></div>
-            <div class="journey-screen"><img :src="`${assetBase}images/jouer.webp`" alt="Jeu pour apprendre la derja dans CultDerja"></div>
-            <div class="journey-screen"><img :src="`${assetBase}images/conjugaison.webp`" alt="Exercice de conjugaison dans CultDerja"></div>
+          <div class="concept-card-grid" aria-label="Fonctionnalités de CultDerja">
+            <article class="concept-card">
+              <div class="concept-card-media"><img :src="`${assetBase}images/parcours.webp`" alt="Parcours d'apprentissage de CultDerja" loading="lazy" decoding="async"></div>
+              <div class="concept-card-copy"><h3>Un parcours linguistique</h3><p>Suis un parcours guidé et avance à ton rythme.</p></div>
+            </article>
+            <article class="concept-card">
+              <div class="concept-card-media"><img :src="`${assetBase}images/flash_card.webp`" alt="Flashcards de vocabulaire dans CultDerja" loading="lazy" decoding="async"></div>
+              <div class="concept-card-copy"><h3>La répétition espacée</h3><p>Mémorise durablement avec des flashcards.</p></div>
+            </article>
+            <article class="concept-card">
+              <div class="concept-card-media"><img :src="`${assetBase}images/ecoute_pratique.webp`" alt="Exercice d'écoute et de pratique dans CultDerja" loading="lazy" decoding="async"></div>
+              <div class="concept-card-copy"><h3>De l'écoute et de la pratique</h3><p>Écoute, répète et entraîne-toi avec des exercices courts et ludiques.</p></div>
+            </article>
+            <article class="concept-card">
+              <div class="concept-card-media"><img :src="`${assetBase}images/jouer.webp`" alt="Jeu pour apprendre la derja dans CultDerja" loading="lazy" decoding="async"></div>
+              <div class="concept-card-copy"><h3>Apprends en jouant</h3><p>Progresse tout en t'amusant grâce à des jeux et des défis interactifs.</p></div>
+            </article>
+            <article class="concept-card">
+              <div class="concept-card-media"><img :src="`${assetBase}images/conjugaison.webp`" alt="Exercice de conjugaison dans CultDerja" loading="lazy" decoding="async"></div>
+              <div class="concept-card-copy"><h3>​Des bases solides</h3><p>Comprends les règles de grammaire et de conjugaison pour construire tes phrases.</p></div>
+            </article>
           </div>
         </div>
       </section>
