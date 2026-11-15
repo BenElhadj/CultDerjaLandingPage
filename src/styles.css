@@ -186,3 +186,23 @@
 @media(max-width:650px){
   .tag-top{right:5%;top:calc(100% - 235px);transform:scale(.7);transform-origin:bottom right}
 }
+#ancrage .collage-large,
+#ancrage .collage-small,
+#ancrage .quote-card{height:auto;aspect-ratio:1.35}
+#ancrage .collage-large{width:65%;left:14%;right:auto}
+#ancrage .collage-small{width:50%;left:0}
+#ancrage .quote-card{width:50%;right:3%}
+#ancrage .journey-collage{min-height:0;aspect-ratio:1.28}
+@media(max-width:650px){
+  #ancrage .collage-large{width:62%;left:14%}
+  #ancrage .collage-small{width:50%;left:0}
+  #ancrage .quote-card{width:50%;right:3%}
+}
+#ancrage .collage-large{top:auto;bottom:50px}
+#ancrage .collage-small{bottom:0}
+#ancrage .quote-card{bottom:0;transform:rotate(6deg)}
+@media (hover:hover) and (prefers-reduced-motion:no-preference) {
+  #ancrage .collage-large:hover{transform:rotate(4deg) translateY(-5px)}
+  #ancrage .collage-small:hover{transform:rotate(-6deg) translateY(-5px)}
+  #ancrage .quote-card:hover{transform:rotate(6deg) translateY(-5px)}
+}
