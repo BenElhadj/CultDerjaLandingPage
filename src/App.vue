@@ -32,7 +32,7 @@ const openFaq = ref(0)
         <div class="hero-copy">
           <h1>Apprends la derja tunisienne<br><span>comme elle se vit.</span></h1>
           <p class="hero-lead">Apprends à parler tunisien à travers des dialogues inspirés de la vraie vie. Découvre les expressions, les habitudes et les codes culturels pour mieux comprendre tes proches et prendre part aux conversations.</p>
-          <div class="hero-actions"><a class="button button-primary" href="#decouvrir">Découvrir l’application</a></div>
+          <div class="hero-actions"><a class="button button-primary" href="https://cultderja-apprendre-le-tunisien.ai.studio" target="_blank" rel="noopener noreferrer">Découvrir l’application</a></div>
         </div>
         <div class="hero-visual" aria-label="Aperçu de l’application CultDerja">
           <div class="floating-tag tag-top"><span class="tag-icon"><img :src="`${assetBase}images/logo.webp`" alt="" aria-hidden="true"></span><span><b>Sortie prochaine</b><small>sur iOS & Android</small></span></div>
